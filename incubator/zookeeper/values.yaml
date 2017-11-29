@@ -6,13 +6,13 @@ servers: 3
 # minAvailable: 2
 resources:
   requests:
-    cpu: 500m
-    memory: 2Gi
+    cpu: 100m
+    memory: 128Mi 
   limits:
-    cpu: 1
-    memory: 4Gi
-heap: "2G"
-storage: "50Gi"
+    cpu: 100m 
+    memory: 128Mi 
+heap: "256Mi"
+storage: "250Mi"
 # storageClass: default
 serverPort: 2888
 leaderElectionPort: 3888
