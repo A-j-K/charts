@@ -11,7 +11,7 @@ resources:
   limits:
     cpu: 100m 
     memory: 128Mi 
-heap: "256Mi"
+heap: "512M"
 storage: "250Mi"
 # storageClass: default
 serverPort: 2888
