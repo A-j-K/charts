@@ -20,8 +20,7 @@ This chart will do the following:
 You can install the chart with the release name `myzk` as below.
 
 ```console
-$ helm repo add incubator http://storage.googleapis.com/kubernetes-charts-incubator
-$ helm install --name myzk incubator/zookeeper
+$ helm install --name myzk ./
 ```
 
 If you do not specify a name, helm will select a name for you.
